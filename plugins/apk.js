@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let info = await apkinfo(text);
   let res = await apk(text);
 
-
+*one moment please.*
         if (res.size > 993000000) {
             m.react(error)
             throw '*ملف APK كبير جدًا. الحد الأقصى لحجم التنزيل هو 990 ميجابايت*.';
